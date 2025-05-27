@@ -3,5 +3,9 @@ class Calculator:
         self.a = None
         self.b = None
 
-    def run():
-        pass
+    def user_input(self):
+        self.a = int(input("First Number? "))
+        self.b = int(input("Second Number? "))
+
+    def run(self):
+        self.user_input()
